@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            margin-top: 50px;
+            width: 350px;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 3px dashed black;
+            margin-top: 50%;
+            background-color: rgb(40, 151, 196);
+            margin: auto;
+        }
+        body{
+            font-size: 20px;
+        }
+
+        input[type="text"]{
+            height:25px;
+            width: 140px;
+            border-radius: 7px;
+            border: none;
+            font-size: 20px;
+        }
+
+        input[type="submit"]{
+            border: none;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <form action="data.php" method="post" autocomplete="off">
+        <table cellpadding="30px">
+            <tr>
+                <td colspan="2" align="center"><u><b>FORM</b></u></td>
+            </tr>
+            <tr>
+                <td>FIRST NAME: </td>
+                <td><input type="text" name="fname" id=""></td>
+            </tr>
+            <tr>
+                <td>LAST NAME: </td>
+                <td><input type="text" name="lname" id=""></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
